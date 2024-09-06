@@ -131,3 +131,39 @@ public class ClockDriver
         System.out.println("\tTick Test 13 PostTick - " + tickTest13.getTime());
     }
 }
+
+//Console output:
+/*
+Empty Con. Test - 00:00
+2 Arg. Con. Test - 03:45
+	Tick Test 1 PreTick - 03:32
+	Tick Test 1 PostTick - 03:33
+	Tick Test 2 PreTick - 03:09
+	Tick Test 2 PostTick - 03:10
+	Tick Test 3 PreTick - 01:59
+	Tick Test 3 PostTick - 02:00
+	Tick Test 4 PreTick - 09:59
+	Tick Test 4 PostTick - 10:00
+	Tick Test 5 PreTick - 23:59
+	Tick Test 5 PostTick - 00:00
+Empty Con. Test - 00:00:00
+3 Arg. Con. Test - 03:45:15
+	Tick Test 6 PreTick - 03:32:59
+	Tick Test 6 PostTick - 03:33:00
+	Tick Test 7 PreTick - 01:00:59
+	Tick Test 7 PostTick - 01:01:00
+	Tick Test 8 PreTick - 01:59:59
+	Tick Test 8 PostTick - 02:00:00
+	Tick Test 9 PreTick - 23:59:59
+	Tick Test 9 PostTick - 00:00:00
+Empty Con. Test - 12:00 AM
+2 Arg. Con. Test - 03:45 AM
+	Tick Test 10 PreTick - 03:32 PM
+	Tick Test 10 PostTick - 03:33 PM
+	Tick Test 11 PreTick - 11:59 PM
+	Tick Test 11 PostTick - 12:00 AM
+	Tick Test 12 PreTick - 11:59 AM
+	Tick Test 12 PostTick - 12:00 PM
+	Tick Test 13 PreTick - 12:59 PM
+	Tick Test 13 PostTick - 01:00 PM
+ */
